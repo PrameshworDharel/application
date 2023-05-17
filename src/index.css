@@ -22,3 +22,59 @@ ul.nav-lists {
   font-size: 20px;
   font-weight: 500;
 }
+.facebook-icon {
+  width: 400px;
+  height: 400px;
+  color: red;
+}
+.facebook-icon:hover {
+  color: green;
+}
+.twitter-icon {
+  width: 400px;
+  height: 400px;
+  color: rgb(4, 4, 4);
+}
+.twitter-icon:hover {
+  color: blue;
+
+}
+/*card*/
+.main{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 300px;
+  overflow:hidden;
+  box-shadow: 0px 0px 15px -5px;
+  margin-left: 10px;
+}
+.image{
+  overflow: hidden;
+  height: 300px;
+  box-shadow: 0px 0px 15px -5px;
+}
+.content{
+  margin: 1rem;
+  margin-top: 0.5rem;
+
+}
+h3,p{
+  margin: 1px;
+  padding: 1px;
+  
+}
+.title{
+  margin-bottom: 0.5rem;
+}
+.Btn{
+  padding: 0;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  background-color:white;
+  border-radius :2px;
+
+}
+ 
