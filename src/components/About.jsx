@@ -4,9 +4,12 @@ import {ReactComponent as TwitterIcon}  from"../assets/icon/twitter.svg";
 function About() {
   return (
     <>
-    <h1>This is About pages.</h1>
-    <FacebookIcon class="facebook-icon"/>
-    <TwitterIcon class="twitter-icon"/>
+    <h1 class="text-3xl pl-11 text-center mt-20">This is About pages.</h1>
+    <div class="flex justify-between hover:text-red-500">
+    <FacebookIcon />
+    <TwitterIcon />
+    </div>
+   
 
     </>
      

@@ -1,12 +1,8 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -40,7 +36,7 @@ ul.nav-lists {
 
 }
 /*card*/
-.main{
+/* .main{
   display: flex;
   justify-content: center;
 }
@@ -67,7 +63,7 @@ h3,p{
 }
 .title{
   margin-bottom: 0.5rem;
-}
+/* } 
 .Btn{
   padding: 0;
   margin-bottom: 5px;
@@ -77,4 +73,4 @@ h3,p{
   border-radius :2px;
 
 }
- 
+  */ 
