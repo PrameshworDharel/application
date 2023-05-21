@@ -52,6 +52,7 @@ function Hooks() {
       <button class="shadow-md rounded-sm" onClick={addInputNumber}>Add Input Number</button>
      </div> 
  </div>
+ 
     
   );
 }
